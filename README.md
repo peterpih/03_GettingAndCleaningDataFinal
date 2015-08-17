@@ -13,7 +13,7 @@ Input data files:[1]
 - features.txt - list of the original 561 variable names
 
 Solution data set file:
-- **tidydata.txt** This file was written using write.file("tidydataset.txt", row.names=FALSE) and should be read in using read.file("tidydataset.txt")
+- **tidydata.txt** This file was written using `write.file("tidydataset.txt", row.names=FALSE)` and should be read in using `read.file("tidydataset.txt")`
 
 Documentation files:
 - **CodeBook.md**
