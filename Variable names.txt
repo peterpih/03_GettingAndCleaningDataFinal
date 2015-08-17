@@ -1,0 +1,57 @@
+
+Mean
+	Time
+	Freq(uency)
+		Body
+		Gravity
+			Accelerometer
+			Gyroscope
+				(nothing)
+				Jerk
+					(nothing)
+					Magnitude
+						Mean
+						Std
+							(blank)
+							X
+							Y
+							Z
+
+
+<Mean><"Time"|"Freq"><"Body"|"Gravity">
+<"Accelerometer"|"Gyroscope">
+<blank""|"Jerk"|"Magnitude">
+<"Mean"|"Std">
+<blank""|"_X"|"_Y"|"_Z">
+
+8 variables for GravityAccelerometer
+
+"MeanTimeGravityAccelerometerMean_X" _Y _Z      
+"MeanTimeGravityAccelerometerStd_X" _Y _Z
+      
+"MeanTimeGravityAccelerometerMagnitudeMean"
+"MeanTimeGravityAccelerometerMagnitudeStd"
+
+
+26 Gyroscope variables (all on Body)
+
+"MeanTimeBodyGyroscopeMean_X" _Y _Z
+"MeanTimeBodyGyroscopeStd_X" _Y _Z
+
+"MeanTimeBodyGyroscopeJerkMean_X" _Y _Z             
+"MeanTimeBodyGyroscopeJerkStd_X" _Y _Z
+     
+"MeanTimeBodyGyroscopeMagnitudeMean"
+"MeanTimeBodyGyroscopeMagnitudeStd"     
+
+"MeanTimeBodyGyroscopeJerkMagnitudeMean"
+"MeanTimeBodyGyroscopeJerkMagnitudeStd" 
+
+"MeanFreqBodyGyroscopeMean_X" _Y _Z
+"MeanFreqBodyGyroscopeStd_X" _Y _Z
+           
+"MeanFreqBodyGyroscopeMagnitudeMean"
+"MeanFreqBodyGyroscopeMagnitudeStd"     
+
+"MeanFreqBodyGyroscopeJerkMagnitudeMean"
+"MeanFreqBodyGyroscopeJerkMagnitudeStd" 
